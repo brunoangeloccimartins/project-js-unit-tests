@@ -10,7 +10,40 @@
     - average([1, 1]) // Retorno: 1;
     - average([1, '2']) // Retorno: undefined;
 */
+// const average = (array) => {
+//   if (!array || array.length === 0) {
+//     return undefined
+//   }
+//   const somaTotal = 0 ;
+//   for (arrayIndex of array){
+//    if ( typeof arrayIndex != Number) {
+//     return undefined
+//     } else {
+//       somaTotal += arrayIndex
+//     }
+//   }
+//     const media = somaTotal / array.length;
+//     return media
+//   };
+const array = [1, 2];
+const average = (array) => {
+  if (!array || array.length === 0) {
+    return undefined;
+  }
 
-const average = () => {};
+  let somaTotal = 0;
+  for (let i = 0; i < array.length; i += 1) {
+    if (typeof array[i] !== Number) {
+      return undefined;
+    }
+    somaTotal += array[i];
+  }
+
+  const media = somaTotal / array.length;
+  return media;
+};
+average();
+console.log(average())
+
 
 module.exports = average;
