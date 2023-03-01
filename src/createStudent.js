@@ -18,10 +18,10 @@
 const createStudent = (nome) => {
   return {
     name: nome,
-    feedback : function() {
-      return 'Eita pessoa boa!'
-    }
-  }
+    feedback: function () {
+      return 'Eita pessoa boa!',
+    };
+  };
 };
 
 module.exports = createStudent;

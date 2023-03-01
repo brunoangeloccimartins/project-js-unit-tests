@@ -25,25 +25,24 @@
 //     const media = somaTotal / array.length;
 //     return media
 //   };
-const array = [1, 2];
-const average = (array) => {
-  if (!array || array.length === 0) {
-    return undefined;
-  }
 
-  let somaTotal = 0;
-  for (let i = 0; i < array.length; i += 1) {
-    if (typeof array[i] !== Number) {
-      return undefined;
-    }
-    somaTotal += array[i];
-  }
+// const average = (array) => {
+//   if (!array || array.length === 0) {
+//     return undefined;
+//   }
 
-  const media = somaTotal / array.length;
-  return media;
-};
-average();
-console.log(average());
+//   let somaTotal = 0;
+//   for (let i = 0; i < array.length; i += 1) {
+//     if (typeof array[i] !== Number) {
+//       return undefined;
+//     }
+//     somaTotal += array[i];
+//   }
+
+//   const media = somaTotal / array.length;
+//   return media;
+// };
+
 
 
 module.exports = average;
