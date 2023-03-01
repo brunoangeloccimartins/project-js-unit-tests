@@ -44,7 +44,6 @@ const calculator = (number1, number2) => {
   return object;
 };
 
-
 const arrayGenerator = (type, object) => {
   if (type === 'keys') {
     return Object.keys(object);
