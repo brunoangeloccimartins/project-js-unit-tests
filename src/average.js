@@ -43,7 +43,7 @@ const average = (array) => {
   return media;
 };
 average();
-console.log(average())
+console.log(average());
 
 
 module.exports = average;
