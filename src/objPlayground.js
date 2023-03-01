@@ -36,9 +36,9 @@
 
 const calculator = (number1, number2) => {
   return {
-    sum: Math.trunc(number1 + number2) ,
-    mult: Math.trunc(number1 * number2) ,
-    div: Math.trunc(number1 / number2) ,
+    sum: Math.trunc(number1 + number2),
+    mult: Math.trunc(number1 * number2),
+    div: Math.trunc(number1 / number2),
     sub: Math.trunc(number1 - number2)
   }
 };
