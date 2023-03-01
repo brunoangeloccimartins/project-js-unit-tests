@@ -26,22 +26,22 @@
 //     return media
 //   };
 
-// const average = (array) => {
-//   if (!array || array.length === 0) {
-//     return undefined;
-//   }
+const average = (array) => {
+  //   if (!array || array.length === 0) {
+  //     return undefined;
+  //   }
 
-//   let somaTotal = 0;
-//   for (let i = 0; i < array.length; i += 1) {
-//     if (typeof array[i] !== Number) {
-//       return undefined;
-//     }
-//     somaTotal += array[i];
-//   }
+  //   let somaTotal = 0;
+  //   for (let i = 0; i < array.length; i += 1) {
+  //     if (typeof array[i] !== Number) {
+  //       return undefined;
+  //     }
+  //     somaTotal += array[i];
+  //   }
 
-//   const media = somaTotal / array.length;
-//   return media;
-// };
+  //   const media = somaTotal / array.length;
+  //   return media;
+};
 
 
 
